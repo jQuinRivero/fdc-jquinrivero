@@ -44,3 +44,30 @@ or:
 ```bash
 make pre-commit
 ```
+
+## Instructions on how to run the application  
+   
+### Running it locally  
+   
+1. Clone the repository and navigate to the project directory.  
+2. Set up the project environment and install dependencies:  
+   ```bash  
+   make setup  
+   ```  
+3. Run the application:  
+   ```bash  
+   make run-main  
+   ```  
+   
+### Running with Docker
+
+1. Clone the repository and navigate to the project directory.
+2. Build the Docker image:
+   ```bash
+   docker build -t data-processing-app .
+   ```
+3. Run the Docker container:
+   ```bash
+    docker run data-processing-app
+    ```
+
